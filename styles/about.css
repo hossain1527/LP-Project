@@ -1,0 +1,119 @@
+/***************Main styles*****************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Syne Mono", monospace;
+}
+
+/***************Navbar toggle*****************/
+
+.navbar-toggle {
+  background-color: #3db9ad;
+}
+
+.navbar-header,
+.container {
+  padding: 10px;
+  background: white;
+}
+.container {
+  width: 100%;
+}
+
+#menu {
+  border: none;
+}
+
+#menu ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+#menu ul li a:hover {
+  color: teal;
+}
+
+#main-links {
+  font-family: "Syne Mono", monospace;
+  padding: 10px;
+}
+
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 0px;
+  color: black;
+  font-weight: bold;
+}
+
+/***************Navbar toggle*****************/
+
+.about {
+  margin: auto;
+  width: 70%;
+  margin-top: 60px;
+  background: #3db9ad;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+h2 {
+  font-weight: bold;
+}
+p {
+  font-size: 22px;
+}
+
+footer {
+  padding-top: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+footer p {
+  color: #040f2a;
+  font-weight: 80px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #134fe8;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #040f2a;
+  color: white;
+}

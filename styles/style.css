@@ -1,0 +1,132 @@
+/***************Navbar*****************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Syne Mono", monospace;
+}
+
+.navbar-inverse {
+  background-color: white;
+  margin: 10px;
+}
+
+#menu {
+  border: none;
+}
+
+#menu ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+#menu ul li a:hover {
+  color: #3db9ad;
+}
+
+#main-links {
+  padding: 10px;
+}
+
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 0px;
+  color: black;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+}
+/***************Navbar toggle*****************/
+
+.navbar-toggle {
+  background-color: #3db9ad;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+/***************Body*****************/
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+}
+
+.leftside {
+  width: 500px;
+  height: 50vh;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.rightside {
+  width: 500px;
+  height: 50vh;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+h2 {
+  font-size: 44px;
+  text-align: justify;
+  /* color: #3db9ad; */
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+p {
+  padding-left: 10px;
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/******************Compatibility - Mobile device***************/
+
+@media (max-width: 768px) {
+  .main-body {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+
+  .leftside p {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .leftside h2 {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .leftside button {
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .rightside lottie-player {
+    width: 100%;
+    height: auto;
+    margin-left: -330px;
+    margin-top: 250px;
+  }
+}
