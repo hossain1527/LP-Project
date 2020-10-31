@@ -234,8 +234,29 @@ section {
   }
 }
 
-@media (max-width: 768px) {
-  #social-media {
-    padding-left: 10px;
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  #linkd {
+    margin-left: 75px;
   }
-}
+  #git {
+    margin-left: 75px;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #linkd {
+    margin-left: 120px;
+  }
+  #git {
+    margin-left: 120px;
+  }
+ }
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
