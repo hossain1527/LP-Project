@@ -234,28 +234,42 @@ section {
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, max up to 576px) */
 @media (max-width: 576px) {
   #linkd {
-    margin-left: 75px;
+    margin-left: 100px;
   }
   #git {
-    margin-left: 75px;
+    margin-left: 100px;
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+/* Medium devices (tablets from 577 to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
   #linkd {
     margin-left: 120px;
   }
   #git {
-    margin-left: 120px;
+    margin-left: 0px;
   }
 }
 
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... } */
+/* Large devices (desktops from 769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  #linkd {
+    margin-left: 200px;
+  }
+  #git {
+    margin-left: 0px;
+  }
+}
 
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+/* Extra large devices (large desktops from 993px to 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  #linkd {
+    margin-left: 70px;
+  }
+  #git {
+    margin-left: 70px;
+  }
+}
