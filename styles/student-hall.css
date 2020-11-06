@@ -1,10 +1,12 @@
+@import url("(https://s32140.pcdn.co/wp-content/uploads/2015/12/SofiaProSoft.woff");
+
 /***************Main styles*****************/
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Syne Mono", monospace;
+  font-family: "Sofia Pro", Sans-serif;
 }
 /***************Navbar toggle*****************/
 
@@ -27,15 +29,15 @@ body {
 
 #menu ul li a {
   color: black;
-  font-size: 17px;
-  font-family: "Syne Mono", monospace;
+  font-size: 20px;
+  font-family: "Sofia Pro", Sans-serif;
 }
 #menu ul li a:hover {
   color: teal;
 }
 
 #main-links {
-  font-family: "Syne Mono", monospace;
+  font-family: "Sofia Pro", Sans-serif;
   padding: 10px;
 }
 
@@ -48,16 +50,17 @@ a {
   padding: 10px 12px;
 }
 
-#nav-list a span {
-  font-size: 1em;
+#nav-list a {
+  font-size: 1.2rem;
   margin-right: 0px;
   color: black;
   font-weight: bold;
   font-weight: bold;
+  font-family: "Sofia Pro", Sans-serif;
 }
 /************Student-Hall Section**************/
 h3 {
-  font-family: "Syne Mono", monospace;
+  font-family: "Sofia Pro", Sans-serif;
   font-weight: 600;
   font-size: 40px;
   text-align: center;
@@ -96,21 +99,22 @@ section {
   height: 420px;
   margin-top: 14px;
   margin-left: 13px;
-  font-family: "Syne Mono", monospace;
+  font-family: "Sofia Pro", Sans-serif;
   color: #093104;
   background-color: #f5f5f5;
+  max-width: 1200px;
 }
 
 #linkd {
   background-color: #1a2b96;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   margin-right: 30%;
   border-radius: 10px;
   color: whitesmoke;
 }
 
 #linkd {
-  margin-left: 130px;
+  margin-left: 120px;
   margin-top: 20px;
   font-size: 15px;
   width: 120px;
@@ -120,7 +124,7 @@ section {
   background-color: #1a2b96;
   border-radius: 10px;
   color: whitesmoke;
-  margin-left: 130px;
+  margin-left: 120px;
   font-size: 15px;
   width: 120px;
 }
@@ -237,10 +241,10 @@ section {
 /* Small devices (landscape phones, max up to 576px) */
 @media (max-width: 576px) {
   #linkd {
-    margin-left: 100px;
+    margin-left: 140px;
   }
   #git {
-    margin-left: 100px;
+    margin-left: 140px;
   }
 }
 
@@ -257,14 +261,15 @@ section {
 /* Large devices (desktops from 769px to 992px) */
 @media (min-width: 769px) and (max-width: 992px) {
   #linkd {
-    margin-left: 200px;
+    margin-left: 150px;
   }
   #git {
     margin-left: 0px;
   }
 }
 
-/* Extra large devices (large desktops from 993px to 1200px) */
+/*Extra large devices (large desktops from 993px to 1200px)*/
+
 @media (min-width: 993px) and (max-width: 1200px) {
   #linkd {
     margin-left: 70px;

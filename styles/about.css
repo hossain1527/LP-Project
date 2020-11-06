@@ -1,10 +1,12 @@
+@import url("(https://s32140.pcdn.co/wp-content/uploads/2015/12/SofiaProSoft.woff");
+
 /***************Main styles*****************/
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Syne Mono", monospace;
+  font-family: "Sofia Pro", Sans-serif;
 }
 
 /***************Navbar toggle*****************/
@@ -17,6 +19,7 @@ body {
 .container {
   padding: 10px;
   background: white;
+  font-family: "Sofia Pro", Sans-serif;
 }
 .container {
   width: 100%;
@@ -28,7 +31,7 @@ body {
 
 #menu ul li a {
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #menu ul li a:hover {
@@ -36,15 +39,16 @@ body {
 }
 
 #main-links {
-  font-family: "Syne Mono", monospace;
+  font-family: "Sofia Pro", Sans-serif;
   padding: 10px;
 }
 
-#nav-list a span {
-  font-size: 1em;
+#nav-list a {
+  font-size: 1.2em;
   margin-right: 0px;
   color: black;
   font-weight: bold;
+  font-family: "Sofia Pro", Sans-serif;
 }
 
 /***************Navbar toggle*****************/
@@ -61,8 +65,10 @@ body {
 
 h2 {
   font-weight: bold;
+  font-family: "Sofia Pro", Sans-serif;
 }
 p {
+  padding-top: 15px;
   font-size: 22px;
 }
 
