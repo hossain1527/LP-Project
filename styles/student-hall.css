@@ -156,6 +156,7 @@ section {
   font-size: 19px;
   font-weight: 500;
   color: #000000;
+  text-align: center;
 }
 
 .description {
@@ -238,7 +239,7 @@ section {
   }
 }
 
-/* Small devices (landscape phones, max up to 576px) */
+/*-----Small devices (landscape phones, max up to 576px)-------*/
 @media (max-width: 576px) {
   #linkd {
     margin-left: 140px;
@@ -248,27 +249,49 @@ section {
   }
 }
 
-/* Medium devices (tablets from 577 to 768px) */
+/*-----Medium devices (tablets from 577 to 768px)-------*/
+
 @media (min-width: 577px) and (max-width: 768px) {
   #linkd {
-    margin-left: 120px;
+    margin-left: 170px;
   }
   #git {
-    margin-left: 0px;
+    margin-top: 60px;
+    margin-left: -170px;
+  }
+  .profile-image img {
+    margin-left: -20px;
   }
 }
 
-/* Large devices (desktops from 769px to 992px) */
+/*-----Large devices (desktops from 769px to 992px)-------*/
+
 @media (min-width: 769px) and (max-width: 992px) {
   #linkd {
-    margin-left: 150px;
+    margin-left: 250px;
   }
   #git {
-    margin-left: 0px;
+    margin-top: 60px;
+    margin-left: -170px;
+  }
+  .profile-image img {
+    margin-left: -10px;
   }
 }
 
-/*Extra large devices (large desktops from 993px to 1200px)*/
+@media (min-width: 870px) and (max-width: 991px) {
+  .profile-image img {
+    margin-left: -230px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 869px) {
+  .profile-image img {
+    margin-left: -170px;
+  }
+}
+
+/*-----Extra large devices (large desktops from 993px to 1200px)-------*/
 
 @media (min-width: 993px) and (max-width: 1200px) {
   #linkd {
