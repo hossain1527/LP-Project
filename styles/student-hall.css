@@ -242,10 +242,10 @@ section {
 /*-----Small devices (landscape phones, max up to 576px)-------*/
 @media (max-width: 576px) {
   #linkd {
-    margin-left: 140px;
+    margin-left: 120px;
   }
   #git {
-    margin-left: 140px;
+    margin-left: 120px;
   }
 }
 
