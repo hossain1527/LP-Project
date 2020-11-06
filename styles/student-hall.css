@@ -249,9 +249,33 @@ section {
   }
 }
 
+@media (min-width: 310px) and (max-width: 576px) {
+  .profile-image img {
+    margin-left: 0px;
+  }
+  #linkd {
+    margin-left: 90px;
+  }
+  #git {
+    margin-left: 90px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 309px) {
+  .profile-image img {
+    margin-left: 0px;
+  }
+  #linkd {
+    margin-left: 35px;
+  }
+  #git {
+    margin-left: 35px;
+  }
+}
+
 /*-----Medium devices (tablets from 577 to 768px)-------*/
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 767px) {
   #linkd {
     margin-left: 170px;
   }
@@ -266,7 +290,7 @@ section {
 
 /*-----Large devices (desktops from 769px to 992px)-------*/
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #linkd {
     margin-left: 250px;
   }
