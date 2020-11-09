@@ -277,11 +277,11 @@ section {
 
 @media (min-width: 577px) and (max-width: 767px) {
   #linkd {
-    margin-left: 170px;
+    margin-left: 220px;
   }
   #git {
     margin-top: 60px;
-    margin-left: -170px;
+    margin-left: -165px;
   }
   .profile-image img {
     margin-left: -20px;
